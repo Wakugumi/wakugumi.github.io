@@ -19,11 +19,11 @@ import Project from '../components/Project.astro';
 					{config.personal.summary}
 				</p>
 				<div class="inline-flex justify-around">
-					{config.links!.map((link, index) => (
+					{config.links!.map((link, _) => (
 						<a href={link.url} class="relative group mr-4 text-4xl text-slate-600 hover:text-slate-800" target="_blank"
 							rel="noopener noreferrer" aria-label={link.label}>
 							<i class={link.icon}></i>
-							<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 rounded bg-slate-800 text-white text-xs opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">
+							<span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 rounded bg-slate-800 text-white text-xs opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
 								{link.label}
 							</span>
 						</a>
@@ -42,9 +42,12 @@ import Project from '../components/Project.astro';
 			<Education />
 		</section>
 
-		<section class="w-full flex lg:flex-row flex-col gap-12 m-auto lg:max-w-6xl mt-12" id="projects">
-			<Project />
-		</section>
+    <section class="w-full flex lg:flex-row flex-col gap-12 m-auto lg:max-w-6xl mt-12" id="projects">
+      <Project />
+    </section>
+
+
+
 
 		<section class="w-full flex lg:flex-row flex-col gap-12 m-auto lg:max-w-6xl mt-12" id="contact">
 			<p class="text-center w-full">Ongoing development</p>

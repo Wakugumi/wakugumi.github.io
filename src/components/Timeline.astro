@@ -135,7 +135,7 @@ const getItemClasses = (variant: string) => {
   ))}
 </ol>
 
-<!-- Modals for each clickable timeline item -->
+<!-- Modals for each clickable timeline item  -->
 {showModals && items.map((item, index) => (
   item.clickable !== false && (
     <Modal
@@ -145,7 +145,6 @@ const getItemClasses = (variant: string) => {
       actions={item.modalActions || [
         { label: 'Close', action: 'close', variant: 'secondary' }
       ]}
-      zIndex={50}
     >
       <!-- Custom modal content slot - you can fill this with detailed information -->
       <div class="space-y-4 text-sm overflow-y-auto max-h-[70vh]">

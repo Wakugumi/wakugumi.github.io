@@ -28,7 +28,7 @@ import Modal from './baseline/Modal.astro';
         <div>
           <h3 class="text-lg font-semibold">{edu.degree}</h3>
           <p class="text-gray-600">{edu.institution} &middot; {edu.location}</p>
-          <p class="text-gray-500 text-sm ">{edu.duration} {edu.gpa ? `&middot; GPA: ${edu.gpa}` : ''}</p>
+          <p class="text-gray-500 text-sm ">{edu.duration} &middot; {edu.gpa ? `GPA: ${edu.gpa}` : ''}</p>
           {edu.description && <p class="mt-2 text-gray-700 lg:block hidden">{edu.description}</p>}
         </div>
       </li>

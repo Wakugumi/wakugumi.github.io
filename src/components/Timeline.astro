@@ -91,7 +91,7 @@ const getItemClasses = (variant: string) => {
           <span class={`size-3 shrink-0 rounded-full ${item.color || getStatusColor(item.status)}`}></span>
         )}
 
-        <div class={variant === 'minimal' ? '' : '-mt-2'}>
+        <div class={`${variant === 'minimal' ? '' : '-mt-2'} overflow-x-auto`}>
           <time class="text-xs/none font-medium text-gray-700">{item.startFrom}</time>
 
           <h3 class={`font-bold text-gray-900 ${

@@ -19,6 +19,89 @@
   },
   "experience": [
     {
+      "company": "Trisakti University legal delegation team",
+      "position": "Fullstack Developer, Freelance",
+      "duration": "1 Month",
+      "startFrom": "Jun 2025",
+      "endAt": "Jul 2025",
+      "location": "Jakarta, ID",
+      "description": [
+        "Developed two web-based hotel room management systems using React, Laravel, SQLite, and ASP.NET, tailored to legal case requirements on copyright management.",
+        "Deployed both applications with Docker to simplify local hosting and ensure consistent environment setup."
+      ],
+      "status": "completed",
+      "skills": [
+        {
+          "title": "Laravel",
+          "icon": "devicon-laravel-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        },
+        {
+          "title": "ASP.NET",
+          "icon": "devicon-dotnetcore-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        },
+        {
+          "title": "React",
+          "icon": "devicon-react-original",
+          "iconType": "class"
+        },
+        {
+          "title": "Azure",
+          "icon": "devicon-azure-plain",
+          "iconType": "class"
+        }
+      ]
+    },
+    {
+      "company": "Timestamp Photobooth",
+      "position": "Lead Software Engineer",
+      "duration": "9 Months",
+      "startFrom": "Aug 2024",
+      "endAt": "Apr 2025",
+      "location": "Jakarta, ID",
+      "description": [
+        "Lead a team of developers in building a hightly flexible, maintainable, multi-tenant photo booth platform backed with cloud infrastructure.",
+        " Our primary challenge was to build scalable backend service by starting in a cost optimized architecture. Furthermore, all booths must be manageable and monitored by the corresponding tenant's admin.",
+        " We develop our backend services mostly with ASPNET and NodeJS for micro-services. Our UI library is made with React as packages for extensible and developer experience. The booth are made using Linux-based machine running our kiosk app made with Electron."
+      ],
+      "status": "completed",
+      "skills": [
+        {
+          "title": "TypeScript",
+          "icon": "devicon-typescript-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        },
+        {
+          "title": "ASPNET",
+          "icon": "devicon-dotnetcore-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        },
+        {
+          "title": "PostgreSQL",
+          "icon": "devicon-postgresql-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        },
+        {
+          "title": "React",
+          "icon": "devicon-react-original",
+          "iconType": "class",
+          "iconPosition": "left"
+        }
+      ],
+      "links": [
+        {
+          "label": "GitHub repository",
+          "url": "https://github.com/Ducktrio/timestamp-photobooth"
+        }
+      ]
+    },
+    {
       "company": "TM Mangunsong Lawfirm",
       "position": "Freelance Web Developer",
       "duration": "3 Months",
@@ -58,52 +141,6 @@
           "icon": "external-link"
         }
       ]
-    },
-    {
-      "company": "Timestamp Photobooth",
-      "position": "Lead Software Engineer",
-      "duration": "9 Months",
-      "startFrom": "Aug 2024",
-      "endAt": "Apr 2025",
-      "location": "Jakarta, ID",
-      "description": [
-        "Lead a team of developers in building a hightly flexible, maintainable, multi-tenant photo booth platform backed with cloud infrastructure.",
-        " Our primary challenge was to build scalable backend service by starting in a cost optimized architecture. Furthermore, all booths must be manageable and monitored by the corresponding tenant's admin.",
-        " We develop our backend services mostly with ASPNET and NodeJS for micro-services. Our UI library is made with React as packages for extensible and developer experience. The booth are made using Linux-based machine running our kiosk app made with Electron."
-      ],
-      "status": "completed",
-      "skills": [
-        {
-          "title": "TypeScript",
-          "icon": "devicon-typescript-plain",
-          "iconType": "class",
-          "iconPosition": "left"
-        },
-        {
-          "title": "ASPNET",
-          "icon": "devicon-dotnetcore-plain",
-          "iconType": "class",
-          "iconPosition": "left"
-        },
-        {
-          "title": "Node.js",
-          "icon": "devicon-nodejs-plain",
-          "iconType": "class",
-          "iconPosition": "left"
-        },
-        {
-          "title": "React",
-          "icon": "devicon-react-original",
-          "iconType": "class",
-          "iconPosition": "left"
-        }
-      ],
-      "links": [
-        {
-          "label": "GitHub repository",
-          "url": "https://github.com/Ducktrio/timestamp-photobooth"
-        }
-      ]
     }
   ],
   "education": [
@@ -118,7 +155,13 @@
     }
   ],
   "skills": {
-    "languages": ["JavaScript", "TypeScript", "Python", "PHP", "Java"],
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "PHP",
+      "Java"
+    ],
     "frameworks": [
       "React",
       "Vue.js",
@@ -127,8 +170,20 @@
       "Astro",
       "Bootstrap"
     ],
-    "tools": ["Docker", "Kubernetes", "AWS", "Git", "Jenkins", "cPanel"],
-    "databases": ["PostgreSQL", "MongoDB", "Redis", "MySQL"]
+    "tools": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Git",
+      "Jenkins",
+      "cPanel"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "MySQL"
+    ]
   },
   "projects": [
     {

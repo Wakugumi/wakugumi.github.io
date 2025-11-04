@@ -53,6 +53,16 @@
           "icon": "devicon-azure-plain",
           "iconType": "class"
         }
+      ],
+      "links": [
+        {
+          "label": "GitHub repository",
+          "url": "https://github.com/Ducktrio/yes-app"
+        },
+        {
+          "label": "GitHub repository",
+          "url": "https://github.com/Ducktrio/columbus-app"
+        }
       ]
     },
     {

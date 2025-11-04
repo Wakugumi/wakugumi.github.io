@@ -142,9 +142,6 @@ const getItemClasses = (variant: string) => {
       id={`timeline-${item.id || index}`}
       title={item.modalTitle || `${item.position} - ${item.company}`}
       size={item.modalSize || 'lg'}
-      actions={item.modalActions || [
-        { label: 'Close', action: 'close', variant: 'secondary' }
-      ]}
     >
       <!-- Custom modal content slot - you can fill this with detailed information -->
       <div class="space-y-4 text-sm overflow-y-auto max-h-[70vh]">

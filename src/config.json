@@ -18,8 +18,35 @@
     "location": "Jakarta, ID"
   },
   "experience": [
+{
+"company": "PT. Intramega Global",
+      "position": "Software Engineer, Internship",
+      "duration": "8 Month",
+      "startFrom": "Dec 2025",
+      "endAt": "Aug 2026",
+      "location": "Jakarta, ID",
+      "description": [
+        "RFID system and Automation in Warehouse Management System."
+      ],
+      "status": "ongoing",
+      "skills": [
+        {
+          "title": "Java",
+          "icon": "devicon-java-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        },
+{
+          "title": "ASP.NET",
+          "icon": "devicon-dotnetcore-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        }
+    ]
+},
+
     {
-      "company": "Trisakti University legal delegation team",
+      "company": "Trisakti University,  Delegation team of Law Students",
       "position": "Fullstack Developer, Freelance",
       "duration": "1 Month",
       "startFrom": "Jun 2025",

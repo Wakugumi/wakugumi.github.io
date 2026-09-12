@@ -12,21 +12,21 @@
   },
   "personal": {
     "name": "Ananda Risyad",
-    "title": "Backend Developer",
+    "title": "Software Engineer",
     "summary": "Greetings. This site is my personal resume. I'm a software engineer, currently focusing in Backend development. Over the years I actively work on web development, some of my work are full stack, some are heavily backend work. In my spare time I do embedded system and IoT for hobby. In this site, you'll find my work experience as well as my works, mostly associated with Software.",
     "avatar": "/profile.jpeg",
     "location": "Jakarta, ID"
   },
   "experience": [
-{
-"company": "PT. Intramega Global",
-      "position": "Software Engineer, Internship",
-      "duration": "8 Month",
-      "startFrom": "Dec 2025",
-      "endAt": "Aug 2026",
-      "location": "Jakarta, ID",
+    {
+      "company": "PT. Intramega Global",
+      "position": "Lead Software Engineer",
+      "duration": "Current",
+      "startFrom": "September 2026",
+      "endAt": "Current",
+      "location": "Tangerang, ID",
       "description": [
-        "RFID system and Automation in Warehouse Management System."
+        "Enterprise application. Design solution as digital transformation with RFID as first class media, lead a team and project in developing system from web-based platform, desktop application, to rugged device."
       ],
       "status": "current",
       "skills": [
@@ -36,15 +36,52 @@
           "iconType": "class",
           "iconPosition": "left"
         },
-{
+        {
           "title": "ASP.NET",
           "icon": "devicon-dotnetcore-plain",
           "iconType": "class",
           "iconPosition": "left"
+        },
+        {
+          "title": "Kotlin",
+          "icon": "devicon-kotlin-plain",
+          "iconType": "class",
+          "iconPosition": "left"
         }
-    ]
-},
-
+      ]
+    },
+    {
+      "company": "PT. Intramega Global",
+      "position": "Fullstack Developer, Internship",
+      "duration": "10 Months",
+      "startFrom": "Dec 2025",
+      "endAt": "Aug 2026",
+      "location": "Tangerang, ID",
+      "description": [
+        "RFID system and middleware development in Warehouse Management System."
+      ],
+      "status": "completed",
+      "skills": [
+        {
+          "title": "Java",
+          "icon": "devicon-java-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        },
+        {
+          "title": "ASP.NET",
+          "icon": "devicon-dotnetcore-plain",
+          "iconType": "class",
+          "iconPosition": "left"
+        },
+        {
+          "title": "React",
+          "icon": "devicon-react-original",
+          "iconType": "class",
+          "iconPosition": "left"
+        }
+      ]
+    },
     {
       "company": "Trisakti University,  Delegation team of Law Students",
       "position": "Fullstack Developer, Freelance",
